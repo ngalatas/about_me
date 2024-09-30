@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Qualtrics Survey – Nyssa Galatas</title>
+<title>Panel and Google Trends – Nyssa Galatas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -105,7 +105,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Personal</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../_site/images/Galatas_Resume.pdf"> 
+    <a class="nav-link" href="../images/Galatas_Resume.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Qualtrics Survey</h1>
+<h1 class="title">Panel and Google Trends</h1>
 </div>
 
 
@@ -144,11 +144,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="qualtrics-panel" class="level4">
+<h4 class="anchored" data-anchor-id="qualtrics-panel">Qualtrics Panel</h4>
 <p>Hello! Access my survey through <a href="https://utdallas.qualtrics.com/jfe/form/SV_cMBIUGwMReWvoZo" title="EPPS 6302 Survey">this link</a>.</p>
-<p>If you want it in a pdf form, click <a href="files\EPPS 6302 Survey.pdf" title="Paper Survey">here</a>.</p>
-<p>The survey is structured in a linear format, with two skips available to avoid irrelevant questions for the user. The questionnaire is for distribution by a movie rental company to their customers. The questions have no clear order, but the most important information to the company appears to come first in the survey. Creating more skips for irrelevant questions and reordering the questions would be beneficial. This would make it such that if someone does not own a DVD player in question 3, they do not have to answer again in question 10.</p>
+</section>
+<section id="google-trends" class="level4">
+<h4 class="anchored" data-anchor-id="google-trends">Google Trends</h4>
+<p>From the Google Trends website, you can see the difference in overall election searches, Trump, and Harris search terms.</p>
+<p><img src="files/election_terms.png" class="img-fluid"></p>
+<p>Here, the 2020 election is the most popular, forming the maximum 100 value. Donald Trump’s popularity increases around the 2016 election and his presidency, then declines after he leaves office. Kamala Harris’s popularity is more minimal than either, with some increase after the launch of her presidential campaign.</p>
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3826_RC01/embed_loader.js"></script>
+<script type="text/javascript"> trends.embed.renderExploreWidget("GEO_MAP", {"comparisonItem":[{"keyword":"election","geo":"US","time":"2010-01-01 2024-09-30"},{"keyword":"/m/08sry2","geo":"US","time":"2010-01-01 2024-09-30"},{"keyword":"/m/0cqt90","geo":"US","time":"2010-01-01 2024-09-30"}],"category":0,"property":""}, {"exploreQuery":"date=2010-01-01%202024-09-30&geo=US&q=election,%2Fm%2F08sry2,%2Fm%2F0cqt90&hl=en","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+<p>Using the chart above, it is clear that in every state, Donald Trump takes up a larger percentage of searches than Kamala Harris.</p>
+<section id="using-ggtrends" class="level5">
+<h5 class="anchored" data-anchor-id="using-ggtrends"><u>Using ggtrends</u></h5>
+<p>With the ggtrends library, this data can also be summarized. Modeling total interest over time results in this graph:</p>
+<p><img src="files/election_interest.png" class="img-fluid" width="300"></p>
+<p>From this, it is also visible that the popularity for elections peaked much higher in 2020 than in other years. The package allows for more manipulation of data, including the combination of topics seen above, than the Google Trends website alone allows.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
