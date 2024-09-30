@@ -11,21 +11,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Why\nNyssa Galatas is a student at the University of Texas at Dallas. I am pursuing a B.S. in Public Policy and a M.S. in Social Data and Analytics. I am also studying for a credential in Legal Research and a minor in Asian Studies.\nI am a detail-oriented Public Policy student, focusing on policy effectiveness and the economic effects of government. I am interested in continuing to explore governmental law, code, and the use of textual data, spatial data, economic data, and web data in government.\n\n\nContact Me\nnggalatas@gmail.com\nngg210001@gmail.com\nhttps://www.linkedin.com/in/nyssa-galatas/"
+    "text": "Nyssa Galatas is a student at the University of Texas at Dallas. I am pursuing a B.S. in Public Policy and a M.S. in Social Data and Analytics. I am also studying for a credential in Legal Research and a minor in Asian Studies.\nI am a detail-oriented Public Policy student, focusing on policy effectiveness and the economic effects of government. I am interested in continuing to explore governmental law, code, and the use of textual data, spatial data, economic data, and web data in government.\n\n\nContact Me\nnggalatas@gmail.com\nngg210001@gmail.com\nhttps://www.linkedin.com/in/nyssa-galatas/"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Nyssa has worked on many projects studying spatial data, economics, and policy efficiency."
+    "text": "Nyssa has worked on many projects studying spatial data, economics, and policy efficiency.\n\nEPPS 6302 Projects\nClick on anything below to access my projects from Fall 2024.\n\nAssignment 1: Qualtrics Survey\n\n\nAssignment 2: Panels and Data"
   },
   {
     "objectID": "experience.html",
     "href": "experience.html",
     "title": "Experience",
     "section": "",
-    "text": "Nyssa has worked as an intern at the National Conference for State Legislatures. I currently work as a Student Tour Guide and Admission Representative (STAR) at the University of Texas at Dallas.\n\nInterning at National Conference for State Legislatures"
+    "text": "Nyssa has worked as an intern at the National Conference for State Legislatures. I currently work as a Student Tour Guide and Admission Representative (STAR) at the University of Texas at Dallas. I also teach a freshman seminar course as a First Year Leader."
   },
   {
     "objectID": "personal.html",
@@ -33,5 +33,40 @@
     "title": "Personal",
     "section": "",
     "text": "Hi! I have one wonderful cat named Cosmo and many plants. I love to read, draw, and am considering going to law school.\n\n\n\nCosmo and some of my plants!"
+  },
+  {
+    "objectID": "Assignments/Epps6302_Assignment2.html",
+    "href": "Assignments/Epps6302_Assignment2.html",
+    "title": "Panel and Google Trends",
+    "section": "",
+    "text": "Qualtrics Panel\nHello! Access my survey through this link.\n\n\nGoogle Trends\nFrom the Google Trends website, you can see the difference in overall election searches, Trump, and Harris search terms.\n\nHere, the 2020 election is the most popular, forming the maximum 100 value. Donald Trump’s popularity increases around the 2016 election and his presidency, then declines after he leaves office. Kamala Harris’s popularity is more minimal than either, with some increase after the launch of her presidential campaign.\n\n\nUsing the chart above, it is clear that in every state, Donald Trump takes up a larger percentage of searches than Kamala Harris.\n\nUsing ggtrends\nWith the ggtrends library, this data can also be summarized. Modeling total interest over time results in this graph:\n\nFrom this, it is also visible that the popularity for elections peaked much higher in 2020 than in other years. The package allows for more manipulation of data, including the combination of topics seen above, than the Google Trends website alone allows."
+  },
+  {
+    "objectID": "Assignments/Epps6302_Assignment1.html",
+    "href": "Assignments/Epps6302_Assignment1.html",
+    "title": "Qualtrics Survey",
+    "section": "",
+    "text": "Hello! Access my survey through this link.\nIf you want it in a pdf form, click here.\nThe survey is structured in a linear format, with two skips available to avoid irrelevant questions for the user. The questionnaire is for distribution by a movie rental company to their customers. The questions have no clear order, but the most important information to the company appears to come first in the survey. Creating more skips for irrelevant questions and reordering the questions would be beneficial. This would make it such that if someone does not own a DVD player in question 3, they do not have to answer again in question 10."
+  },
+  {
+    "objectID": "experience.html#interning-at-national-conference-for-state-legislatures",
+    "href": "experience.html#interning-at-national-conference-for-state-legislatures",
+    "title": "Experience",
+    "section": "Interning at National Conference for State Legislatures",
+    "text": "Interning at National Conference for State Legislatures\nI worked at NCSL for six months, from the beginning of 2024 through the summer. Here are some of the many tasks I performed while with them:\n\nPublishing an Article\n\nWhile working at NCSL, I was lucky enough to help out with many projects and tasks. One of those was the opportunity to publish a summary article of a brief by Andrew Smalley, who I interned under. This covers some of the recent efforts done by states to make more efficient workforce systems.\n\n\nTracking Postsecondary Legislation\nMy primary task working at NCSL was to track and categorize state legislation for higher education and workforce efforts. I tracked around 2000 pieces of legislation in topic areas ranging from dual enrollment to financial aid. Look through the legislation below:\n\n\n\nLook through legislation here!\n\n\n\n\nStudent Loan Database\n\n\n\n\nLook through Student Loan Legislation here!\n\n\nOne other database I tracked legislation for as an intern was our Student Loan Bill Tracking Database. This takes the legislation passed and categorizes it further in a Power BI database to break down forgiveness, licensure, oversight, and tax bills into their own groupings. Check it out!"
+  },
+  {
+    "objectID": "experience.html#working-as-a-student-tour-and-admission-representative",
+    "href": "experience.html#working-as-a-student-tour-and-admission-representative",
+    "title": "Experience",
+    "section": "Working as a Student Tour and Admission Representative",
+    "text": "Working as a Student Tour and Admission Representative\nI currently work as a tour guide for the University of Texas at Dallas. There, I perform administrative tasks like calls, mailing of promotional items, and answering visitor questions. I also help coordinate and work our Scholars’ Day events, which have around over 1000 guests in total!"
+  },
+  {
+    "objectID": "experience.html#teaching-as-a-first-year-leader",
+    "href": "experience.html#teaching-as-a-first-year-leader",
+    "title": "Experience",
+    "section": "Teaching as a First-Year Leader",
+    "text": "Teaching as a First-Year Leader\nEvery fall, freshman in the School of Economic, Political, and Policy Sciences take a freshman seminar course. This fall, I am excited to be with the FYL program co-teaching one of these courses. Check out our presentations below:\n\n\n\n\nDela Cruz_Galatas_Week_1_EPPS1110.303_Presentation by Nyssa Galatas and Jasha Dela Cruz"
   }
 ]
