@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Nyssa Galatas",
+    "title": "About",
     "section": "",
-    "text": "Nyssa Galatas is a student at the University of Texas at Dallas. I am pursuing a B.S. in Public Policy and a M.S. in Social Data and Analytics."
+    "text": "Nyssa Galatas is a student at the University of Texas at Dallas. I am pursuing a B.S. in Public Policy and a M.S. in Social Data and Analytics. I am also studying for a credential in Legal Research and a minor in Asian Studies.\nI am a detail-oriented Public Policy student, focusing on policy effectiveness and the economic effects of government. I am interested in continuing to explore governmental law, code, and the use of textual data, spatial data, economic data, and web data in government.\n\n\nContact Me\nnggalatas@gmail.com\nngg210001@gmail.com\nhttps://www.linkedin.com/in/nyssa-galatas/"
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Nyssa has worked on many projects studying spatial data, economics, and policy efficiency.\n\nEPPS 6302 Projects\nClick on anything below to access my projects from Fall 2024.\n\nAssignment 1: Qualtrics Survey\n\n\nAssignment 2: Panels and Data"
+    "text": "Nyssa has worked on many projects studying spatial data, economics, and policy efficiency.\n\nEPPS 6302 Projects\nClick on anything below to access my projects from Fall 2024.\n\nAssignment 1: Qualtrics Survey\n\n\nAssignment 2: Panels and Data\n\n\nAssignment 3: Quanteda and Text Data"
   },
   {
     "objectID": "experience.html",
@@ -68,5 +68,12 @@
     "title": "Experience",
     "section": "Teaching as a First-Year Leader",
     "text": "Teaching as a First-Year Leader\nEvery fall, freshman in the School of Economic, Political, and Policy Sciences take a freshman seminar course. This fall, I am excited to be with the FYL program co-teaching one of these courses. Check out our presentations below:\n\n\n\n\nDela Cruz_Galatas_Week_1_EPPS1110.303_Presentation by Nyssa Galatas and Jasha Dela Cruz"
+  },
+  {
+    "objectID": "Assignments/Epps6302_Assignment3.html",
+    "href": "Assignments/Epps6302_Assignment3.html",
+    "title": "Quanteda and Textual Analysis",
+    "section": "",
+    "text": "Analysis of Biden-Xi Summit Speeches\nFrom the built in data in Quanteda, we can see popular accounts that tweeted about the summit.\n\n\n\nAnalysis of Presidential Speeches\nUsing the wordcloud analysis, the most common words can be highlighted.\n\nThis can also be broken out by president, with Bush, Obama, and Trump’s most frequent words seen below.\n\nThese words can then be graphed by their frequency, as seen for the previous four administrations below.\n\nUsing an x-ray plot, the frequency of specific terms can be seen across different administrations below.\n\n\n\nWordfish\nWordfish aligns words dimensionally based on relationships between them. It’s used to arrange words ideologically, especially in politics. It’s based on the frequency of the words used and their frequency in relation to other words and assumes a single-dimension to words and that users with such beliefs use the words more frequently. It generates a roughly curved graph that looks like a fishtail, hence the name."
   }
 ]

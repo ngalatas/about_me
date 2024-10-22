@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Panel and Google Trends – Nyssa Galatas</title>
+<title>Quanteda and Textual Analysis – Nyssa Galatas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Panel and Google Trends</h1>
+<h1 class="title">Quanteda and Textual Analysis</h1>
 </div>
 
 
@@ -144,26 +144,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="qualtrics-panel" class="level4">
-<h4 class="anchored" data-anchor-id="qualtrics-panel">Qualtrics Panel</h4>
-<p>Hello! Access my survey through <a href="https://utdallas.qualtrics.com/jfe/form/SV_cMBIUGwMReWvoZo" title="EPPS 6302 Survey">this link</a>.</p>
+<section id="analysis-of-biden-xi-summit-speeches" class="level4">
+<h4 class="anchored" data-anchor-id="analysis-of-biden-xi-summit-speeches">Analysis of Biden-Xi Summit Speeches</h4>
+<p>From the built in data in Quanteda, we can see popular accounts that tweeted about the summit.</p>
+<p><img src="files/biden_si.png" class="img-fluid"></p>
 </section>
-<section id="google-trends" class="level4">
-<h4 class="anchored" data-anchor-id="google-trends">Google Trends</h4>
-<p>From the Google Trends website, you can see the difference in overall election searches, Trump, and Harris search terms.</p>
-<p><img src="files/election_terms.png" class="img-fluid"></p>
-<p>Here, the 2020 election is the most popular, forming the maximum 100 value. Donald Trump’s popularity increases around the 2016 election and his presidency, then declines after he leaves office. Kamala Harris’s popularity is more minimal than either, with some increase after the launch of her presidential campaign.</p>
-<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3826_RC01/embed_loader.js"></script>
-<script type="text/javascript"> trends.embed.renderExploreWidget("GEO_MAP", {"comparisonItem":[{"keyword":"election","geo":"US","time":"2010-01-01 2024-09-30"},{"keyword":"/m/08sry2","geo":"US","time":"2010-01-01 2024-09-30"},{"keyword":"/m/0cqt90","geo":"US","time":"2010-01-01 2024-09-30"}],"category":0,"property":""}, {"exploreQuery":"date=2010-01-01%202024-09-30&geo=US&q=election,%2Fm%2F08sry2,%2Fm%2F0cqt90&hl=en","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
-<p>Using the chart above, it is clear that in every state, Donald Trump takes up a larger percentage of searches than Kamala Harris.</p>
-<section id="using-ggtrends" class="level5">
-<h5 class="anchored" data-anchor-id="using-ggtrends"><u>Using ggtrends</u></h5>
-<p>With the ggtrends library, this data can also be summarized. Modeling total interest over time results in this graph:</p>
-<p><img src="files/election_interest.png" class="img-fluid" width="300"></p>
-<p>From this, it is also visible that the popularity for elections peaked much higher in 2020 than in other years. The package allows for more manipulation of data, including the combination of topics seen above, than the Google Trends website alone allows.</p>
+<section id="analysis-of-presidential-speeches" class="level4">
+<h4 class="anchored" data-anchor-id="analysis-of-presidential-speeches">Analysis of Presidential Speeches</h4>
+<p>Using the wordcloud analysis, the most common words can be highlighted.</p>
+<p><img src="files/overall wordcloud.png" class="img-fluid"></p>
+<p>This can also be broken out by president, with Bush, Obama, and Trump’s most frequent words seen below.</p>
+<p><img src="files/wordcloud.png" class="img-fluid"></p>
+<p>These words can then be graphed by their frequency, as seen for the previous four administrations below.</p>
+<p><img src="files/trend by pres.png" class="img-fluid"></p>
+<p>Using an x-ray plot, the frequency of specific terms can be seen across different administrations below.</p>
+<p><img src="files/xray better.png" class="img-fluid"></p>
+</section>
+<section id="wordfish" class="level4">
+<h4 class="anchored" data-anchor-id="wordfish">Wordfish</h4>
+<p>Wordfish aligns words dimensionally based on relationships between them. It’s used to arrange words ideologically, especially in politics. It’s based on the frequency of the words used and their frequency in relation to other words and assumes a single-dimension to words and that users with such beliefs use the words more frequently. It generates a roughly curved graph that looks like a fishtail, hence the name.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
