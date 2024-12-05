@@ -18,7 +18,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Nyssa has worked on many projects studying spatial data, economics, and policy efficiency.\n\nEPPS 6302 Projects\nClick on anything below to access my projects from Fall 2024.\n\nAssignment 1: Qualtrics Survey\n\n\nAssignment 2: Panels and Data\n\n\nAssignment 3: Quanteda and Text Data"
+    "text": "Nyssa has worked on many projects studying spatial data, economics, and policy efficiency.\n\nEPPS 6302 Projects\nClick on anything below to access my projects from Fall 2024.\n\nAssignment 1: Qualtrics Survey\n\n\nAssignment 2: Panels and Data\n\n\nAssignment 3: Quanteda and Text Data\n\n\nAssignment 4: Webscraping"
   },
   {
     "objectID": "experience.html",
@@ -75,5 +75,26 @@
     "title": "Quanteda and Textual Analysis",
     "section": "",
     "text": "Analysis of Biden-Xi Summit Speeches\nFrom the built in data in Quanteda, we can see popular accounts that tweeted about the summit.\n\n\n\nAnalysis of Presidential Speeches\nUsing the wordcloud analysis, the most common words can be highlighted.\n\nThis can also be broken out by president, with Bush, Obama, and Trump’s most frequent words seen below.\n\nThese words can then be graphed by their frequency, as seen for the previous four administrations below.\n\nUsing an x-ray plot, the frequency of specific terms can be seen across different administrations below.\n\n\n\nWordfish\nWordfish aligns words dimensionally based on relationships between them. It’s used to arrange words ideologically, especially in politics. It’s based on the frequency of the words used and their frequency in relation to other words and assumes a single-dimension to words and that users with such beliefs use the words more frequently. It generates a roughly curved graph that looks like a fishtail, hence the name."
+  },
+  {
+    "objectID": "Assignments/Epps6302_Assignment4.html",
+    "href": "Assignments/Epps6302_Assignment4.html",
+    "title": "Youtube API",
+    "section": "",
+    "text": "Data from Webscraping\nYou can see some of the output from the code here:\n\nSome charts of the analysis of the channel are below:\n\n\nThere are two broad conclusions from the data. Firstly, as expected, videos with more views get more likes and comments. Additionally, the majority of videos have low videos, likes, and comment values, with only a few having high numbers of all. This is also consistent with the expected idea that most videos are not viral.\nBecause of the restrictions on queries, I could not use comment data thoroughly. However, if the comment data were compiled into a corpus for analysis, it could be used for textual analysis."
+  },
+  {
+    "objectID": "Assignments/Epps6302_FinalProject.html",
+    "href": "Assignments/Epps6302_FinalProject.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "Access a PDF of our project here:\nFinal Project\n\n\nOur Presentation:\n\n\n\nSee the code here:\nhttps://github.com/ngalatas/epps6302project"
+  },
+  {
+    "objectID": "Assignments/Epps6302_Assignment5.html",
+    "href": "Assignments/Epps6302_Assignment5.html",
+    "title": "Webscraping",
+    "section": "",
+    "text": "Resources from Webscraping\nAccess the csv format of the Texas 2022 Elections data I scraped through this link.\nIf you want to see some of the government documents I scraped, click any of the links below:\nSenate Resolution 115 of the 118th Session\nSenate Resolution 805 of the 118th Session\nSenate Resolution 890 of the 118th Session\nSenate Record for September 15th, 2024\n\n\nResults of Webscraping\nWhile the resources already in a csv format are usable to some extent, the pdf files are not well formatted for analysis. If the search were filtered for a specific type of government document, such as resolutions, it is possible that a consistent format could be used to extract text from the data. However, in its current format, the pdf file type is limiting to the use for textual analysis."
   }
 ]
